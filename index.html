@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Score Board</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container2"> 
+             <h3>HOME</h3>
+                 <div class="scorebd">
+                     <span id="score"></span>
+                 </div>
+                     <div class="inc-box">
+                         <button class="btn" onclick="addOne()">+1</button>
+                         <button class="btn" onclick="addTwo()" >+2</button>
+                         <button class="btn" onclick="addThree()">+3</button>      
+                     </div>
+         </div>
+             <div id="rst-div">
+             <button id="rst-btn" onclick="reset()">Reset</button>
+             </div>
+         <div class="container2">
+             <h3>GUEST</h3>
+                 <div class="scorebd">
+                     <span id="guest-score"></span>
+                 </div>
+                     <div class="inc-box">
+                         <button class="g-btn" onclick="GstAddOne()">+1</button>
+                         <button class="g-btn" onclick="GstAddTwo()" >+2</button>
+                         <button class="g-btn" onclick="GstAddThree()">+3</button>      
+                     </div>
+         </div>
+     </div>
+     <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+#score, #guest-score{
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: CursedTimerUlil-Aznm;
+}
+.inc-box{
+    width: 155px;
+    height: 45px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn, .g-btn{
+    width: 45px;
+    font-family: CursedTimerUlil-Aznm;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: gray;
+}
+
+.g-btn:hover{
+    background-color: gray;
+}
+
+#rst-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rst-btn{
+    width:70px;
+    height: 45px;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-family: CursedTimerUlil-Aznm;
+    
+}
+
+#rst-btn:hover{
+   color: #ffff;
+   background-color: black;
+}
